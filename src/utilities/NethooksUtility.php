@@ -47,7 +47,7 @@ class NethooksUtility extends Utility
     /**
      * @inheritdoc
      */
-    public static function iconPath()
+    public static function iconPath() : ?string
     {
         return Craft::getAlias("@jungleminds/nethooks/assetbundles/nethooksutility/dist/img/Nethooks-icon.svg");
     }
