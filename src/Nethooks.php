@@ -46,7 +46,7 @@ class Nethooks extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.2';
+    public string $schemaVersion = '1.0.2';
 
     // Public Methods
     // =========================================================================
@@ -92,7 +92,7 @@ class Nethooks extends Plugin
     /**
      * @inheritdoc
      */
-    protected function createSettingsModel()
+    protected function createSettingsModel() : ?Settings
     {
         return new Settings();
     }
